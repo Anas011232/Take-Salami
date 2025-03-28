@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Salami!</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
+    <style>
+        @keyframes bounceText {
+            100% {
+                transform: translateY(-10px);
+                text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc;
+            }
+        }
+    </style>
+
+</head>
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen bg-white mx-auto p-5">
+          <div class="flex justify-between">
+            <div class="flex gap-2">
+                <img src="assets/Group.png" alt="" class="w-3/12">
+                <div>
+                    <h1 class="font-bold text-xl">Tk.<span id="main-balance">0</span> </h1>
+                    <p class="font-semibold text-blue-500">Available Balance</p>
+                </div>
+            </div>
+            <div class="flex justify-center items-center  overflow-hidden ">
+                    
+                <h1 class="mt-5 text-xl font-bold uppercase flex space-x-2">
+    
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">S</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">A</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">L</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">A</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">M</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">I</span>
+            
+
+                </h1>
+            </div>
+            </div>
+            <div class="border-b-2 mt-5 border-gray-500">
+            </div>
+          </div>
+
+          <section class="mt-5">
+            <div>
+                <h1 class="text-2xl font-bold text-center">Please Take Your Salami!</h1>
+                <br>
+                 <h1 class="text-slate-600">Your Current <span class="text-blue-500">Available Balance</span> is Zero.</h1>
+                 <br>
+                <p class="font-semibold text-center">If you want to take Salami click on the <span class=" font-extrabold">'TAKE SALAMI'</span> button.</p>
+                <br>
+            </div>
+            <div>
+                <div id="add-money" class="hover:bg-blue-200 border-2 border-gray-400 p-3 rounded-xl text-center mx-auto w-1/2">
+                    <img src="assets/wallet1.png" alt="" class="mx-auto ">
+                    <p class="text-[0.7rem] mt-2 font-extrabold">TAKE SALAMI</p>
+                </div>
+                
+            </div>
+            
+          </section>
+
+          <img src="assets/tk.jpg" alt="" class="mt-5 rounded-xl">
+
+          
+
+    </section>
+
+    <script src="1st.js"></script>
+</body>
+</html>

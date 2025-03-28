@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Salami!</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
+
+    <style>
+        @keyframes bounceText {
+            100% {
+                transform: translateY(-10px);
+                text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen bg-white mx-auto p-5">
+          <div class="flex justify-between">
+            <div class="flex">
+                <img src="assets/Group.png" alt="" class="w-3/12">
+                <div>
+                    <h1 class="font-bold text-xl">Tk.<span id="main-balance">0</span> </h1>
+                    <p>Available Balance</p>
+                </div>
+            </div>
+                <h1 id="add"></h1>
+            </div>
+            <div class="border-b-2 mt-5 border-gray-500">
+            </div>
+          </div>
+
+          <section class="mt-2">
+           
+            <div class="flex justify-center items-center  overflow-hidden ">
+                    
+                <h1 class="mt-5 text-xl font-bold uppercase flex space-x-2">
+                    
+                    <span class="inline-block animate-bounce [animation-delay:0.2s]">G</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.4s]">E</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.6s]">T </span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">Y</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">O</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">u</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">R</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">S</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">A</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">L</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">A</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">M</span>
+                    <span class="inline-block animate-bounce [animation-delay:0.8s]">I</span>
+            
+
+                </h1>
+            </div>
+         
+            
+          </section>
+
+          <br>
+          <br>
+
+
+          <div>
+            <h1 class="text-center">"Almost there! Just make sure to fill in the form carefully so we can process your request smoothly."</h1>
+          </div>
+
+          <br> <br>
+          <h1 id="last" class="text-center font-semibold text-slate-900 text-xl"></h1>
+          <h1 id="mon" class="text-center font-bold text-blue-600 text-xl"></h1>
+          <h1 id="eid" class="text-center font-semibold text-slate-900 text-xl"></h1>
+          <br>
+          
+
+          <div class="hero bg-white">
+            <div class="hero-content flex-col w-3/4 lg:flex-row-reverse">
+              
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                  <fieldset class="fieldset">
+
+                    <select class="select">
+                        <option disabled selected>Select bKash/Nagad</option>
+                        <option>bKash</option>
+                        <option>Nagad</option>
+                        
+                      </select>
+
+                    <label class="fieldset-label font-bold text-black">Mobile Number (bkash/Nagad)</label>
+
+                    <input type="number" id="number" class="input" placeholder="Enter your number" />
+
+                    <label class="fieldset-label font-bold text-black">Use this Pin : 1234</label>
+
+                    <input type="number" id="pin" class="input" placeholder="Enter 4 Digit Pin" />
+
+                    <label class="fieldset-label font-bold text-black">Add Amount</label>
+
+                    <input type="number" id="add-amount" class="input" placeholder="Tk." />
+                    
+                    <button id="get" class="btn btn-neutral mt-4 bg-blue-500 border-none hover:bg-black">Get Your Salami</button>
+
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <h1 id="anas" class="text-center"></h1>
+         
+
+          
+
+    </section>
+
+    
+    <script src="take.js"></script>
+</body>
+</html>
