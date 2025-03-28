@@ -22,7 +22,7 @@ document.getElementById('get').addEventListener('click',function(event){
             document.getElementById('main-balance').innerText=sum;
             document.getElementById('last').innerText="[See your available balance now]" 
             document.getElementById('mon').innerText="MONER SALAAMI EE BORO SALAMI"
-            document.getElementById('eid').innerText="EID MIBARAK!"
+            document.getElementById('eid').innerText="EID MUBARAK!"
             document.getElementById('anas').innerText="Made by: Anas JKKNIU CSE-17"
             
             window.scrollTo({
