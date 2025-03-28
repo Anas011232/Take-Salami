@@ -24,6 +24,11 @@ document.getElementById('get').addEventListener('click',function(event){
             document.getElementById('mon').innerText="MONER SALAAMI EE BORO SALAMI"
             document.getElementById('eid').innerText="EID MIBARAK!"
             document.getElementById('anas').innerText="Made by: Anas JKKNIU CSE-17"
+            
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
 
 
         }   
